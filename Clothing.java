@@ -40,4 +40,7 @@ public class Clothing {
     public void setTamanio(String tamanio) {
         this.tamanio = tamanio;
     }
+    @override
+    public String toString(){
+        return getDescripcion() + "," + getTamanio() + "," + getPrecio(); 
 }
