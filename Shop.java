@@ -16,7 +16,8 @@ public class Shop {
         c1.setSize(measurement);
         System.out.println("El nombre del cliente es: " + c1.getName() + "El talle del cliente es: " + c1.getSize());
         for (Clothing item : items) {
-            System.out.println("Descripción: " + item.getDescripcion() + ", " + "Precio: " + item.getPrecio() + ", " + "Tamanio: " + item.getTamanio());
+            System.out.println("Item: " + item);
+            //System.out.println("Descripción: " + item.getDescripcion() + ", " + "Precio: " + item.getPrecio() + ", " + "Tamanio: " + item.getTamanio());
         }
     }
 }
